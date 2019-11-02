@@ -1,4 +1,4 @@
-nav, .contenedor, footer, article, .principal, aside,img,h1,h2 {
+nav,  footer, .principal, aside,img,h1,h2 {
     max-width: 98%;
     margin: auto;
     text-align: center;
@@ -39,13 +39,25 @@ nav {
     border-color: rgb(240,180,41);
 }
 
-.contenedor {
+.contenedor{
     background-color:white;
+    text-align: center;
    
 }
 
+article {
+    background-color:white;
+    text-align: justify;
+   
+}
 footer {
-    background-color: rgb(128,128,128);
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#11225B;
+    color: white;
+    text-align: center;
 }
 
 article {
@@ -63,7 +75,7 @@ article {
 aside {
     background-color: rgb(255, 255, 255);
     display: inline-block;
-    width: 38%;
+    width: 38%;  
 }
 /* Menu */
 .menu li {
